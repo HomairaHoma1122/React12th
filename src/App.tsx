@@ -22,7 +22,7 @@ useEffect(()=>{
 if(!listPost){
   return(
     <div>
-      <h1>Jast a minuts</h1>
+      <h1 className="text-red-700 text-center m-auto flex items-center justify-center">Jast a minuts</h1>
     </div>
   )
 }
